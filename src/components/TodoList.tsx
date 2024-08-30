@@ -1,9 +1,8 @@
-
-import useGetTodos from "../hooks/getTodos";
+//import useGetTodos from "../hooks/getTodos";
 import TodoRow from "./TodoRow";
 
-export default function TodoList() {
-  const {data} = useGetTodos();
+export default function TodoList({data}:any) {
+  //const {data} = useGetTodos();
 
   return (
     <table className="border-collapse w-full">
